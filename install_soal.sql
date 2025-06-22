@@ -207,3 +207,4 @@ INSERT INTO questions (level, qtype, operand1, operand2) VALUES (20, 'add', 25, 
 INSERT INTO questions (level, qtype, operand1, operand2) VALUES (20, 'div', 912, 16);
 INSERT INTO questions (level, qtype, operand1, operand2) VALUES (20, 'div', 2150, 86);
 INSERT INTO questions (level, qtype, operand1, operand2) VALUES (20, 'div', 3619, 77);
+#elza

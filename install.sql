@@ -16,6 +16,6 @@ CREATE TABLE IF NOT EXISTS questions (
 );
 
 -- Akun default
-INSERT INTO users (username, password) VALUES ('elza23', 'kadal2323');
+INSERT INTO users (username, password) VALUES ('elza233', 'kadal2323');
 
 -- Soal akan ditambahkan secara manual atau dari file SQL yang kamu dapat sebelumnya
