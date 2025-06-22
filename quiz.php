@@ -93,7 +93,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="quiz-box">
         <h3>Level <?= $level ?> - Soal <?= $index + 1 ?>/10</h3>
 
-        <!-- ✅ TAMPILKAN NOTIFIKASI -->
+        <!-- ✅ TAMPILKAN NOTIFIKASI bagus -->
         <?php
         if (isset($_SESSION['feedback'])) {
             $type = $_SESSION['feedback']['type'] === 'success' ? 'alert-success' : 'alert-danger';
