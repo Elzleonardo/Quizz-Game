@@ -22,6 +22,12 @@
 - **Database**: MySQL (phpMyAdmin)
 - **Desain UI**: CSS manual, layout responsif di tengah
 
+## 👥 Kelompok
+| No | Nama Anggota       | NIM         | 
+|----|--------------------|-------------|
+| 1  | Elsa Nur Aripin       | 20221310035  | 
+| 2  | Muh. Suara tansa      | 20221310026       | 
+
 ---
 
 ## 🗂️ Struktur Direktori
