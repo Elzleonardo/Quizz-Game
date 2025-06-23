@@ -1,0 +1,11 @@
+### 🔳 Black Box Testing
+
+| No | Fitur yang Diuji        | Skenario Pengujian                                                                 | Input / Aksi                                           | Output yang Diharapkan                                          | Status |
+|----|--------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|--------|
+| 1  | Login                   | Login dengan username dan password benar                                           | `elza23`, `kadal2323`                                  | Redirect ke dashboard                                            | ✅     |
+| 2  | Login Gagal             | Login dengan password salah                                                        | `elza23`, `salah`                                      | Tampil pesan error login                                         | ✅     |
+| 3  | Soal Level              | Memulai kuis level 1                                                               | Klik "Mulai"                                            | Soal pertama tampil                                              | ✅     |
+| 4  | Validasi Jawaban Salah | Menjawab soal dengan jawaban salah                                                 | Jawaban salah                                           | Muncul notifikasi "Jawaban salah" dan tombol "Coba Lagi" aktif   | ✅     |
+| 5  | Navigasi Level          | Menyelesaikan seluruh soal di satu level                                           | Jawaban semua benar                                     | Redirect ke halaman selesai level atau ke level selanjutnya      | ✅     |
+| 6  | Tampilan Dashboard      | Login lalu masuk ke dashboard                                                      | Klik menu dashboard                                     | Tampilkan jumlah level yang telah diselesaikan                   | ✅     |
+| 7  | Logout                  | Klik logout dari aplikasi                                                          | Klik tombol logout                                      | Kembali ke halaman login                                         | ✅     |
